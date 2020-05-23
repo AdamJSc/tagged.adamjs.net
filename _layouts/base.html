@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="/assets/main.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <header>
+                    <div class="col">
+                        <div class="title">
+                            {{ site.title }}
+                        </div>
+                        <div class="description">
+                            {{ site.description }}
+                        </div>
+                    </div>
+                </header>
+            </div>
+            {{ content }}
+            <div class="row">
+                <footer>
+                    <div class="col">
+                        <ul>
+                            <li>
+                                GitHub: <a href="https://github.com/AdamJSc">@AdamJSc</a>
+                            </li>
+                            <li>
+                                Twitter: <a href="https://twitter.com/AdamAlsoTweets">@AdamAlsoTweets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>
