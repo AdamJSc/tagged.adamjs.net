@@ -4,7 +4,7 @@
 @import 'variables';
 
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body {
@@ -34,7 +34,7 @@ h1 {
 
 h2, h3, h4 {
   font-family: $font-secondary;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   margin: 0;
 }
 
@@ -77,9 +77,15 @@ ul {
   color: $color-secondary-light;
 }
 
+.table-of-contents {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .post-nav {
   padding-top: 2rem;
   font-weight: bold;
+  font-size: 1.2rem;
 
   .prev {
     text-align: left;
@@ -87,4 +93,12 @@ ul {
   .next {
     text-align: right;
   }
+}
+
+@media screen and  (min-width: 550px) {
+  html { font-size: 18px; }
+}
+
+@media screen and (min-width: 992px) {
+  html { font-size: 20px; }
 }
