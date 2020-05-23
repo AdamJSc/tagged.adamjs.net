@@ -4,6 +4,31 @@ layout: base
 <div class="row">
     <div class="col">
         <h1>{{ page.title }}</h1>
+        <p class="center"><a href="/">Back to Home</a></p>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="post-meta">
+            <ul>
+                <li>Tagged by {{ page.tagged_by }}</li>
+                <li>On {{ page.date | date_to_string }}</li>
+            </ul>
+        </div>
     </div>
 </div>
 {{ content }}
+<div class="post-nav row">
+    {% if page.previous.url %}
+    <div class="prev col">
+        <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    </div>
+    {% endif %}
+    {% if page.next.url %}
+    <div class="next col">
+        <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    </div>
+    {% endif %}
+</div>
+
+

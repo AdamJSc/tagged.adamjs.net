@@ -55,6 +55,10 @@ header {
   }
 }
 
+.center {
+  text-align: center;
+}
+
 footer {
   width: 100%;
   padding: 2rem 0;
@@ -71,4 +75,16 @@ ul {
 
 .highlighter-rouge {
   color: $color-secondary-light;
+}
+
+.post-nav {
+  padding-top: 2rem;
+  font-weight: bold;
+
+  .prev {
+    text-align: left;
+  }
+  .next {
+    text-align: right;
+  }
 }
