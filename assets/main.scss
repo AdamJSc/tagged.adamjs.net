@@ -51,12 +51,18 @@ header {
   font-weight: bold;
   border-bottom: 2px dotted #fff;
 
+  .image {
+    display: inline-block;
+    width: 100%;
+    max-width: 50px;
+  }
+
   .title {
     font-size: 3rem;
   }
 
   .description {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -76,6 +82,14 @@ ul {
 
 .post-meta {
   padding: 0 0 2rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 
 .center {

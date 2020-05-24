@@ -8,18 +8,34 @@
     </head>
     <body>
         <div class="container">
-            <div class="row">
-                <header>
-                    <div class="col">
+            <header>
+                <div class="row align-items-center">
+                    <div class="col right">
+                        <div class="image">
+                            <img alt="tagged" src="/assets/img/tag.svg" />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-8">
                         <div class="title">
                             {{ site.title }}
                         </div>
+                    </div>
+                    <div class="col left">
+                        <div class="image">
+                            <img alt="tagged" src="/assets/img/tag.svg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-lg-6 col-sm-8">
                         <div class="description">
                             {{ site.description }}
                         </div>
                     </div>
-                </header>
-            </div>
+                    <div class="col"></div>
+                </div>
+            </header>
             {{ content }}
             <div class="row">
                 <footer>
