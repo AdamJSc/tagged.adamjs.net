@@ -15,29 +15,5 @@ brief: |
 
     (I can do that, right?)
 ---
-{% assign covers = site.data["2020-05-19-top-10-album-covers"] %}
-<div id="covers-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-    <ol class="carousel-indicators">
-        {% for cover in covers %}
-            <li data-target="#covers-carousel" data-slide-to="{{ forloop.index | plus: -1 }}" {% if forloop.first %}class="active"{% endif %}></li>
-        {% endfor %}
-    </ol>
-    <div class="carousel-inner">
-        {% for cover in covers %}
-            <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                <div class="carousel-inner">
-                    <div class="position">#{{ covers.size | minus: forloop.index | plus: 1 }}</div>
-                    <div class="image"><img src="{{ cover.url }}" alt="{{ cover.alt }}" /></div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
-    <a class="carousel-control-prev" href="#covers-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#covers-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+{% assign items = site.data["2020-05-19-top-10-album-covers"] %}
+{% include carousel_image_only.html id="covers-carousel" items=items %}
