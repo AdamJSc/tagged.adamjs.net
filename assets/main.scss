@@ -80,6 +80,13 @@ ul {
   list-style: none;
 }
 
+.home {
+  .image {
+    margin: 0 auto 1rem;
+    max-width: 300px;
+  }
+}
+
 .post-meta {
   padding: 0 0 2rem;
 }
