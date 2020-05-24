@@ -9,12 +9,20 @@ layout: base
 </div>
 <div class="row">
     <div class="col">
-        <div class="post-meta">
-            <ul>
-                <li>Tagged by {{ page.tagged_by }}</li>
-                <li>On {{ page.date | date_to_string }}</li>
-            </ul>
+        <div class="post-meta center">
+            Tagged by <strong>{{ page.tagged_by }}</strong> on {{ page.date | date_to_string }}
         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2>The Brief</h2>
+        {{ page.brief | markdownify }}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2>What you got...?</h2>
     </div>
 </div>
 {{ content }}
