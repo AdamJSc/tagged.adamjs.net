@@ -1,0 +1,10 @@
+<blockquote class="blockquote center">
+    <div class="quote-container">
+        <div class="open-quote quotation-mark">“</div>
+        <div class="quote-body">{{ include.item.quote | markdownify }}</div>
+        <div class="close-quote quotation-mark">”</div>
+    </div>
+    <div class="quote-source">
+        {{ include.item.source | markdownify }}
+    </div>
+</blockquote>
