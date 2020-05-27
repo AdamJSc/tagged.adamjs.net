@@ -134,6 +134,16 @@ ul {
     padding: 0.5rem 0;
     margin: 0 0 1rem;
   }
+
+  .icon {
+    margin: 1rem auto 3rem;
+    width: 100px;
+    height: 100px;
+
+    &.spotify:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 #covers-carousel {
@@ -142,6 +152,17 @@ ul {
     max-width: 300px;
     max-height: 300px;
     margin: 0 auto;
+  }
+}
+
+.modal {
+  .btn-secondary {
+    background: $color-primary-light;
+    color: $color-primary-dark;
+  }
+
+  .modal-content {
+    background: $color-primary-dark;
   }
 }
 

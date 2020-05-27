@@ -1,30 +1,40 @@
 -
   image: https://upload.wikimedia.org/wikipedia/en/a/ac/Audioslave_-_Audioslave.jpg
   alt: Audioslave - Cochise
+  spotifyID: album/293aYSIVNjjmkAwupnlxRd
 -
   image: https://upload.wikimedia.org/wikipedia/en/0/0d/Humanafterall.jpg
   alt: Daft Punk - Human After All
+  spotifyID: album/2T7DdrOvsqOqU9bGTkjBYu
 -
   image: https://upload.wikimedia.org/wikipedia/en/3/3a/Everything_in_Transit.jpg
-  alt: Jack's Mannequin - Everything In Transit
+  alt: Jacks Mannequin - Everything In Transit
+  spotifyID: album/7gfFEfHxjkmy6sP1fhLaJM
 -
   image: https://upload.wikimedia.org/wikipedia/en/5/56/NOYalbumcover.jpg
   alt: Nightmare Of You - Nightmare Of You
+  spotifyID: album/44sKToWaRjNlnYY5PggLXD
 -
   image: https://upload.wikimedia.org/wikipedia/en/8/8a/Angels_%26_Airwaves_-_Love_cover.jpg
   alt: Angels & Airwaves - LOVE
+  spotifyID: album/57DnXkVkRkL2N8IIRQAmUV
 -
   image: https://upload.wikimedia.org/wikipedia/en/d/dd/Idlewild_-_Warnings-Promises.jpg
   alt: Idlewild - Warnings/Promises
+  spotifyID: album/0Wy65OHfNbTiYsa7LCnj7y
 -
   image: https://upload.wikimedia.org/wikipedia/en/c/c8/Eric_the_red_re-release_cover.jpg
   alt: Tyr - Eric The Red
+  spotifyID: album/59n97UmIvpbPkqhg9obM9p
 -
   image: https://upload.wikimedia.org/wikipedia/en/8/8d/MySecretIsMySilence.jpg
   alt: Roddy Woomble - My Secret Is My Silence
+  spotifyID: album/2FmbjFDMo1kyhn549pzxfe
 -
   image: https://img.discogs.com/Ec1LJFLdhYd8URaORmqvLJYsTls=/fit-in/600x598/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-951701-1187572772.jpeg.jpg
-  alt: Ed Rec Vol.2
+  alt: ED REC vol.2
+  spotifyID: album/5o97U52GJxMpOlYbVvg1CV
 -
   image: https://upload.wikimedia.org/wikipedia/en/d/d3/Relient_K_-_5_Score_And_Seven_Years_Ago.jpg
   alt: Relient K - Five Score And Seven Years Ago
+  spotifyID: album/2s3cXsR6D0yrbT5rrR8ryK

@@ -14,6 +14,12 @@ brief: |
     JUST. Straight. Up. **Album Covers**...
 
     (I can do that, right?)
+    
+    Oh... By the way...
+    
+    Definitely don't click on the Spotify icon beneath each image, because
+    that launches an embedded playlist for each one and them's against the rules...
+    :blush:
 ---
 {% assign items = site.data["2020-05-19-top-10-album-covers"] %}
-{% include carousel.html id="covers-carousel" items=items carouselInner="image_only" %}
+{% include carousel.html id="covers-carousel" items=items carouselInner="image_with_spotify" %}
