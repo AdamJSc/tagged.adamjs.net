@@ -49,7 +49,7 @@ header {
   margin: 0 0 2rem;
   text-align: center;
   font-weight: bold;
-  border-bottom: 2px dotted #fff;
+  border-bottom: $border-pattern;
 
   .image {
     display: inline-block;
@@ -72,7 +72,7 @@ footer {
   margin: 2rem 0 0;
   text-align: center;
   font-weight: bold;
-  border-top: 2px dotted #fff;
+  border-top: $border-pattern;
 }
 
 ul {
@@ -84,6 +84,18 @@ ul {
   .image {
     margin: 0 auto 1rem;
     max-width: 300px;
+  }
+
+  h2 {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .intro {
+    &.row {
+      border-bottom: $border-pattern;
+    }
   }
 }
 

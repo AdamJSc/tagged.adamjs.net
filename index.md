@@ -2,10 +2,6 @@
 layout: home
 title: Home
 ---
-<div class="image">
-<img src="https://contentfac-hjlq3xcqw0xbivx14et.netdna-ssl.com/wp-content/uploads/Facebook-Algorithm-Update.jpg" alt="y u no" />
-</div>
-
 Hej hej! 👋
 
 Thanks for ending up here.
@@ -23,4 +19,4 @@ for everyone... as the "design" of this microsite will testify 👍).
 
 I might end up adding some of my own lists over time as well, since I've now gone to all the effort of setting this thing up.
 
-Anyway, OK...
+Anyway...
