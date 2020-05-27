@@ -16,4 +16,4 @@ brief: |
     (I can do that, right?)
 ---
 {% assign items = site.data["2020-05-19-top-10-album-covers"] %}
-{% include carousel_image_only.html id="covers-carousel" items=items %}
+{% include carousel.html id="covers-carousel" items=items carouselInner="image_only" %}
