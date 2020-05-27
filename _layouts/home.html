@@ -1,0 +1,27 @@
+---
+layout: base
+---
+<div class="row">
+    <div class="col">
+        <h1>What's all this?</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="home col">
+        {{ content | markdownify }}
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2>Now begin</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <ul class="table-of-contents">
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }} {{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
