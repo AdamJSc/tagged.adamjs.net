@@ -1,4 +1,5 @@
 ---
+permalink: /top-10-album-covers
 layout: post
 title:  Top 10 Album Covers
 date:   2020-05-19 13:12:00 +0100

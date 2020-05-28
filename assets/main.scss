@@ -178,6 +178,38 @@ ul {
   }
 }
 
+.blockquote {
+  .quote-container {
+    margin: 0 auto;
+    width: 80%;
+    background: $color-primary-light;
+    color: $color-primary-dark;
+
+    .quotation-mark {
+      font-size: 3rem;
+    }
+
+    .quote-body {
+      padding: 0 2rem;
+    }
+
+    .open-quote {
+      text-align: left;
+      padding-left: 2rem;
+    }
+
+    .close-quote {
+      text-align: right;
+      padding-right: 2rem;
+    }
+  }
+
+  .quote-source {
+    padding: 1rem;
+    font-style: italic;
+  }
+}
+
 @media screen and  (min-width: 550px) {
   html { font-size: 18px; }
 
@@ -187,6 +219,15 @@ ul {
       height: 400px;
       max-width: 400px;
       max-height: 400px;
+    }
+  }
+}
+
+@media screen and  (min-width: 768px) {
+  .blockquote {
+    .quote-container {
+      width: auto;
+      margin: 0 5rem;
     }
   }
 }
