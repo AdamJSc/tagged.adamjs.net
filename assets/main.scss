@@ -147,6 +147,24 @@ ul {
     margin: 0 0 1rem;
   }
 
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .image {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+  }
+
+  .caption {
+    font-size: 1.7rem;
+    font-style: italic;
+    padding-bottom: 3rem;
+  }
+
   .icon {
     margin: 1rem auto 3rem;
     width: 100px;
@@ -155,15 +173,6 @@ ul {
     &.spotify:hover {
       cursor: pointer;
     }
-  }
-}
-
-#covers-carousel {
-  .image {
-    width: 100%;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
   }
 }
 
@@ -213,12 +222,17 @@ ul {
 @media screen and  (min-width: 550px) {
   html { font-size: 18px; }
 
-  #covers-carousel {
+  .carousel-inner {
     .image {
       width: 400px;
-      height: 400px;
       max-width: 400px;
       max-height: 400px;
+    }
+  }
+
+  #covers-carousel {
+    .image {
+      height: 400px;
     }
   }
 }
@@ -235,12 +249,17 @@ ul {
 @media screen and (min-width: 992px) {
   html { font-size: 20px; }
 
-  #covers-carousel {
+  .carousel-inner {
     .image {
       width: 500px;
-      height: 500px;
       max-width: 500px;
       max-height: 500px;
+    }
+  }
+
+  #covers-carousel {
+    .image {
+      height: 500px;
     }
   }
 }
