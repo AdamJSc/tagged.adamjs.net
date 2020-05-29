@@ -1,7 +1,7 @@
 ---
-permalink: /top-10-album-covers
+permalink: /top-10-influential-albums
 layout: post
-title:  Top 10 Album Covers
+title:  Top 10 Influential Albums
 date:   2020-05-19 13:12:00 +0100
 tagged_by: Mark N
 brief: |
@@ -22,5 +22,5 @@ brief: |
     that launches an embedded playlist for each one and them's against the rules...
     :blush:
 ---
-{% assign items = site.data["2020-05-19-top-10-album-covers"] %}
-{% include carousel.html id="covers-carousel" items=items carouselInner="image_with_spotify" %}
+{% assign items = site.data["2020-05-19-top-10-influential-albums"] %}
+{% include carousel.html id="albums-carousel" items=items carouselInner="image_with_spotify" %}
