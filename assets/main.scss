@@ -118,7 +118,7 @@ ul {
   color: $color-secondary-light;
 }
 
-.table-of-contents {
+.table-of-contents, .menu-link {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -180,6 +180,11 @@ ul {
     }
   }
 }
+#albums-carousel {
+  .image:hover {
+    cursor: pointer;
+  }
+}
 
 .modal {
   .btn-secondary {
@@ -235,6 +240,7 @@ ul {
       height: 250px;
 
       &.square {
+        max-height: inherit;
         height: 400px;
       }
     }

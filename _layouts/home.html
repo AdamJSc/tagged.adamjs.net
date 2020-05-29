@@ -7,6 +7,7 @@ layout: base
             <div class="image">
                 <img src="https://contentfac-hjlq3xcqw0xbivx14et.netdna-ssl.com/wp-content/uploads/Facebook-Algorithm-Update.jpg" alt="y u no" />
             </div>
+            <p class="menu-link center"><a href="/#posts">Go to Posts</a></p>
         </div>
     </div>
     <div class="intro row">
@@ -21,7 +22,7 @@ layout: base
             </div>
         </div>
     </div>
-    <div class="row">
+    <div id="posts" class="row">
         <div class="col">
             <h2>Ok, now begin</h2>
         </div>
@@ -30,7 +31,7 @@ layout: base
         <div class="col">
             <ul class="table-of-contents">
                 {% for post in site.posts %}
-                    <li><a href="{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }} {{ post.title }}</a></li>
+                    <li><a href="{{ post.url }}">{{ post.date | date: "%d/%m/%Y" }} {{ post.title }} {% if post.tagged_by %}({{ post.tagged_by }}){% endif %}</a></li>
                 {% endfor %}
             </ul>
         </div>
