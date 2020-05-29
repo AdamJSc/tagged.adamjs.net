@@ -76,9 +76,8 @@
         $(document).ready(init);
 
         function init() {
-            var intro = $('#intro');
-            intro.delay(1000).queue(function(next) {
-                intro.collapse('show');
+            $(document).queue(function(next) {
+                $('#intro').collapse('show');
                 next();
             });
         }
