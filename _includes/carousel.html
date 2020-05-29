@@ -6,9 +6,10 @@
     </ol>
     <div class="carousel-inner">
         {% for item in items %}
+        {% assign position = items.size | minus: forloop.index | plus: 1 %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
             <div class="carousel-inner">
-                <div class="position">#{{ items.size | minus: forloop.index | plus: 1 }}</div>
+                <div class="position">{% if item.position %}{{ item.position }}{% else %}{{ "#" | append: position }}{% endif %}</div>
                 <div class="item-content">{% include carousel_inner_{{ include.carouselInner }}.html item=item %}</div>
             </div>
         </div>
