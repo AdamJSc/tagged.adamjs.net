@@ -235,6 +235,7 @@ ul {
       height: 250px;
 
       &.square {
+        max-height: inherit;
         height: 400px;
       }
     }
